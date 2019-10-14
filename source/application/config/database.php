@@ -48,10 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+// $db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'sooe-mysql';
 //$db['default']['hostname'] = 'wkatavsilva';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'tangoup666';
+// $db['default']['username'] = 'root';
+$db['default']['username'] = 'sooe_user';
+// $db['default']['password'] = 'tangoup666';
+$db['default']['password'] = 'sooe_pw';
+// $db['default']['database'] = 'sooe';
 $db['default']['database'] = 'sooe';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
